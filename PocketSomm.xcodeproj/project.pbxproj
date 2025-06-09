@@ -29,22 +29,9 @@
 		C14A69782DF645A8007A16B2 /* PocketSommUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketSommUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C14A69962DF64B23007A16B2 /* Exceptions for "PocketSomm" folder in "PocketSomm" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C14A69602DF645A7007A16B2 /* PocketSomm */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C14A69632DF645A7007A16B2 /* PocketSomm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C14A69962DF64B23007A16B2 /* Exceptions for "PocketSomm" folder in "PocketSomm" target */,
-			);
 			path = PocketSomm;
 			sourceTree = "<group>";
 		};

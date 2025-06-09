@@ -1,0 +1,2 @@
+import SwiftUI
+struct WineCard: View { let wine: WineEvaluation; @State private var selectedGrade: String?; @State private var showingJustification = false; var body: some View { VStack(alignment: .leading, spacing: 16) { Text(wine.wine).font(.headline); Text("Value Score: \(wine.finalValueScore, specifier: "%.1f")").font(.title2); HStack { ForEach(["Price", "Craft", "Story", "Vibe", "Pairing"], id: \.self) { grade in Text(grade).padding(8).background(Color.blue).foregroundColor(.white).cornerRadius(8) } } } } }
